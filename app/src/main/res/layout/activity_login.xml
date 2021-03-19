@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_signin_background"
+    tools:context=".LoginActivity">
+
+
+    <Button
+        android:id="@+id/google_sign_in"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#fff"
+        android:elevation="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sign in with Google"
+        android:textAllCaps="false"
+        android:textColor="#090909"
+        android:textSize="15sp"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/ic_google"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+
+        app:iconTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/fbsignin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.875" />
+
+    <Button
+        android:id="@+id/fbsignin"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="160dp"
+        android:backgroundTint="#3b5998"
+        android:fontFamily="sans-serif-medium"
+        android:text="Login with Facebook"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/ic_facebook"
+
+
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="WELCOME"
+        android:textColor="#FF4A00"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

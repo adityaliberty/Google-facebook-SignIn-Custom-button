@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Employee</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_to_facebook">Welcome to Facebook</string>
+    <string name="facebook_app_id">162724815694096</string>
+    <string name="fb_login_protocol_scheme">fb162724815694096</string>
+
+</resources>
